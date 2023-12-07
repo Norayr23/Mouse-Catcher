@@ -6,11 +6,19 @@ How to Play:
  Make single or multiple moves to capture the mouse.
  Win the game by successfully trapping the mouse in one of the buckets.
 How to Build and Run:
-Clone the repository:
-  git clone https://github.com/Norayr23/Mouse-Catcher.git
-Navigate to the project directory:
-  cd Mouse-Catcher
-Build the game:
-  make
-Run the game:
-  ./game.exe
+1. **Clone the repository:**
+    ```
+    git clone https://github.com/Norayr23/Mouse-Catcher.git
+    ```
+2. **Navigate to the project directory:**
+    ```
+    cd Mouse-Catcher
+    ```
+3. **Build the game:**
+    ```
+    make
+    ```
+4. **Run the game:**
+    ```
+    ./game.exe
+    ```

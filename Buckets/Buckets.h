@@ -16,7 +16,7 @@ public:
     size_t getMousePosition() const;
     void updateMousePosition(size_t);
     void reset();
-    const std::vector<std::pair<size_t, size_t>>& getMoves() const;
+    const std::vector<std::pair<size_t, size_t> >& getMoves() const;
 private:
     size_t m_fieldSize;
     std::vector<std::pair<size_t, size_t>> m_moves;

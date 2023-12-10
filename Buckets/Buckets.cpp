@@ -50,5 +50,5 @@ size_t Buckets::fieldSize() const { return m_fieldSize; }
 size_t Buckets::getMousePosition() const { return m_mouse.position(); }
 void Buckets::updateMousePosition(size_t pos) { m_mouse.setPosition(pos); }
 void Buckets::reset() { m_moves.clear(); }
- const std::vector<std::pair<size_t, size_t>>& Buckets::getMoves() const { return m_moves; }
+ const std::vector<std::pair<size_t, size_t > >& Buckets::getMoves() const { return m_moves; }
 

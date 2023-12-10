@@ -19,7 +19,7 @@ public:
     const std::vector<std::pair<size_t, size_t> >& getMoves() const;
 private:
     size_t m_fieldSize;
-    std::vector<std::pair<size_t, size_t>> m_moves;
+    std::vector<std::pair<size_t, size_t> > m_moves;
     Mouse m_mouse;    
 };
 
